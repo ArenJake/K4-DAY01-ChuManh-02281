@@ -157,5 +157,5 @@ Nếu không xác định được biên thật, mức che khuất quá lớn ho
 - [X] `visuals/classification_top5.png`
 - [X] `visuals/detection_predictions.png`
 - [X] `visuals/segmentation_prediction.png`
-- [ ] Ô validation cuối notebook báo `PASS`.
+- [X] Ô validation cuối notebook báo `PASS`.
 - [X] Không có họ tên, MSSV hoặc dữ liệu nhạy cảm trong báo cáo/output.
