@@ -234,7 +234,7 @@ class RepositoryContractTest(unittest.TestCase):
             drive_output_dir = test_root / "drive" / "MyDrive" / "AI20K-Day1"
             package_source = package_source.replace(
                 "/content/drive/MyDrive/AI20K-Day1",
-                str(drive_output_dir),
+                drive_output_dir.as_posix(),
             )
 
             class FakeDrive:
